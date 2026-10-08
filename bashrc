@@ -7,3 +7,4 @@ source /usr/share/garuda/garuda-bash-config/bashrc
 # -- Insert customizations below this line! --
 # alias
 alias ls 'eza --group-directories-first'
+alias less 'less -Si'
