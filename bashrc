@@ -5,6 +5,11 @@
 source /usr/share/garuda/garuda-bash-config/bashrc
 
 # -- Insert customizations below this line! --
+# history
+HISTCONTROL=ignoreboth
+HISTSIZE=1000000
+HISTFILESIZE=2000000
+
 # alias
 alias ls 'eza --group-directories-first'
 alias less 'less -Si'
