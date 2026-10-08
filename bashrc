@@ -8,3 +8,6 @@ source /usr/share/garuda/garuda-bash-config/bashrc
 # alias
 alias ls 'eza --group-directories-first'
 alias less 'less -Si'
+
+# paths
+export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
