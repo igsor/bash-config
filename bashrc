@@ -11,8 +11,8 @@ HISTSIZE=1000000
 HISTFILESIZE=2000000
 
 # alias
-alias ls 'eza --group-directories-first'
-alias less 'less -Si'
+alias ls='eza --group-directories-first'
+alias less='less -Si'
 
 # paths
 export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
